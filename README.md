@@ -1,2 +1,2 @@
 # vidyasankar
-VidyaSankar Jagarlapudi
+VidyaSankar Panchangam
