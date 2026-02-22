@@ -1,0 +1,48 @@
+{
+"name": "VidyaSankar",
+"short_name": "VidyaSankar",
+"start_url": "/",
+"display": "standalone",
+"description": "VidyaSankar",
+"lang": "en-US",
+"dir": "auto",
+"theme_color": "#000000",
+"background_color": "#000000",
+"orientation": "any",
+"icons": [
+    {
+        "src": "/logo.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src": "/logo1.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+    }
+],
+"screenshots": [
+    {
+        "src": "/big.png",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "VidyaSankar"
+    }
+],
+"related_applications": [
+    {
+        "platform":"windows",
+        "url": "/"
+    }
+],
+"prefer_related_applications": false,
+"shortcuts": [
+    {
+        "name":"VidyaSankar",
+        "url":"/",
+        "description":"VidyaSankar"
+    }
+]
+}
