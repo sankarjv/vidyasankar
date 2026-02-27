@@ -77,6 +77,14 @@
         // If the fetch fails (e.g disconnected), wait for the cache.
         // If there’s nothing in cache, wait for the fetch.
         // If neither yields a response, return offline pages.
+
+        // Updated 2/7/2023 by @zteutsch. Switched from pure race between cache and network to a half second (500 ms) timeout
+        // before going to cache. All fallbacks should still work and cache will be updated in the background.
+
+        const delayCacheResponse = new Promise((resolve) => {
+            setTimeout(resolve, NETWORK_TIMEOUT_MS, cached);
+        })
+
         event.respondWith(
         Promise.race([fetched.catch(_ => cached), cached])
             .then(resp => resp || fetched)
@@ -89,5 +97,5 @@
             .then(([response, cache]) => response.ok && cache.put(event.request, response))
             .catch(_ => { /* eat any errors */ })
         )
-    }
+      }
     })
