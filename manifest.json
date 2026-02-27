@@ -46,12 +46,12 @@
         "description":"VidyaSankar Panchang"
     }
 ],
+"prefer_related_applications": true,
 "related_applications": [
     {
         "platform":"play",
         "url": "https://play.google.com/store/apps/details?id=com.vidyasankar.panchangam",
         "id": "com.vidyasankar.panchangam"
     }
-],
-"prefer_related_applications": true
+]
 }
