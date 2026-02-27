@@ -1,9 +1,11 @@
 {
 "name": "VidyaSankar",
 "short_name": "VidyaSankar",
+"id": "/",
 "start_url": "/",
 "display": "standalone",
-"description": "VidyaSankar",
+"display_override": "window-controls-overlay",
+"description": "VidyaSankar Panchang",
 "lang": "en-IN",
 "dir": "auto",
 "theme_color": "#ffffff",
@@ -42,7 +44,7 @@
     {
         "name":"VidyaSankar",
         "url":"/",
-        "description":"VidyaSankar"
+        "description":"VidyaSankar Panchang"
     }
 ]
 }
