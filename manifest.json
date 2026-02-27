@@ -2,9 +2,13 @@
 "name": "VidyaSankar",
 "short_name": "VidyaSankar",
 "id": "/",
-"start_url": "/",
+"start_url": "/index.html",
 "display": "standalone",
-"display_override": "window-controls-overlay",
+"display_override": [
+  "window-controls-overlay",
+  "standalone",
+  "browser"
+],
 "description": "VidyaSankar Panchang",
 "lang": "en-IN",
 "dir": "auto",
@@ -30,7 +34,7 @@
         "src": "/big.png",
         "sizes": "1029x774",
         "type": "image/png",
-        "purpose": "any"
+        "platform":"wide"
     }
 ],
 "related_applications": [
@@ -48,3 +52,4 @@
     }
 ]
 }
+
