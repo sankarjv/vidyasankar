@@ -13,7 +13,7 @@
 "orientation": "any",
 "edge_side_panel": {
     "preferred_width": 400
-  }
+  },
 "display": "standalone",
 "display_override": [
     "window-controls-overlay",
