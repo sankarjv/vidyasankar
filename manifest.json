@@ -1,23 +1,24 @@
 {
 "name": "VidyaSankar",
 "short_name": "VidyaSankar",
+"description": "VidyaSankar Panchang",
+"iarc_rating_id": "75dc93bb-c074-8eee-83c0-3ef21b37568d"
 "id": "/",
 "start_url": "/index.html",
-"display": "standalone",
-"display_override": [
-    "window-controls-overlay",
-    "standalone"
-],
-"description": "VidyaSankar Panchang",
-"categories": [
-    "lifestyle", 
-    "productivity"
-],
 "lang": "en-IN",
 "dir": "auto",
 "theme_color": "#ffffff",
 "background_color": "#ffffff",
 "orientation": "any",
+"display": "standalone",
+"display_override": [
+    "window-controls-overlay",
+    "standalone"
+],
+"categories": [
+    "lifestyle", 
+    "productivity"
+],
 "icons": [
     {
         "src": "/logo.png",
@@ -29,9 +30,16 @@
 "screenshots": [
     {
         "src": "/big.png",
-        "sizes": "1029x774",
+        "sizes": "784x1366",
         "type": "image/png",
         "platform":"wide"
+    }
+],
+"shortcuts": [
+    {
+        "name":"VidyaSankar",
+        "url":"/",
+        "description":"VidyaSankar Panchang"
     }
 ],
 "related_applications": [
@@ -40,12 +48,5 @@
         "url": "/"
     }
 ],
-"prefer_related_applications": false,
-"shortcuts": [
-    {
-        "name":"VidyaSankar",
-        "url":"/",
-        "description":"VidyaSankar Panchang"
-    }
-]
+"prefer_related_applications": false
 }
