@@ -5,11 +5,15 @@
 "iarc_rating_id": "75dc93bb-c074-8eee-83c0-3ef21b37568d",
 "id": "/",
 "start_url": "/index.html",
+"scope": "https://vidyasankar.com",
 "lang": "en-IN",
 "dir": "auto",
 "theme_color": "#ffffff",
 "background_color": "#ffffff",
 "orientation": "any",
+"edge_side_panel": {
+    "preferred_width": 400
+  }
 "display": "standalone",
 "display_override": [
     "window-controls-overlay",
@@ -44,9 +48,10 @@
 ],
 "related_applications": [
     {
-        "platform":"windows",
-        "url": "/"
+        "platform":"play",
+        "url": "https://play.google.com/store/apps/details?id=com.vidyasankar.panchangam",
+        "id": "com.vidyasankar.panchangam"
     }
 ],
-"prefer_related_applications": false
+"prefer_related_applications": true
 }
