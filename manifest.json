@@ -4,11 +4,7 @@
 "id": "/",
 "start_url": "/index.html",
 "display": "standalone",
-"display_override": [
-  "window-controls-overlay",
-  "standalone",
-  "browser"
-],
+"display_override": ["window-controls-overlay", "standalone"],
 "description": "VidyaSankar Panchang",
 "lang": "en-IN",
 "dir": "auto",
@@ -52,4 +48,5 @@
     }
 ]
 }
+
 
