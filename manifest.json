@@ -9,6 +9,7 @@
     "standalone"
 ],
 "description": "VidyaSankar Panchang",
+"categories": ["lifestyle", "productivity"]
 "lang": "en-IN",
 "dir": "auto",
 "theme_color": "#ffffff",
