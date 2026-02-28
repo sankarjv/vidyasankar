@@ -8,7 +8,7 @@
 "lang": "en-IN",
 "dir": "auto",
 "theme_color": "#ffffff",
-"background_color": "#ffffff",
+"background_color": "#c0c0c0",
 "orientation": "any",
 "edge_side_panel": {
     "preferred_width": 400
