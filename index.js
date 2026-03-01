@@ -1,6 +1,5 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register("/service-worker.js");
-    navigator.serviceWorker.register("/adv-sw.js"); }
+    navigator.serviceWorker.register("/service-worker.js"); }
 
 window.onload = function() {
     // Disable right-click context menu
