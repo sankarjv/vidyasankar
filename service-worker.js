@@ -13,7 +13,7 @@ const fetchedCopy = fetched.then(r => r.clone());
 
 const delayCacheResponse =
     new Promise(resolve =>
-        setTimeout(resolve, NETWORK_TIMEOUT_MS, cached)
+        setTimeout(resolve, 500, cached)
     );
 
 event.respondWith(
