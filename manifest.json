@@ -20,9 +20,7 @@
 ],
 "scope": "https://vidyasankar.com",
 "scope_extensions": [
-  { "type": "origin", "origin": "http://vidyasankar.com"},
-  { "type": "origin", "origin": "https://www.vidyasankar.com"},
-  { "type": "origin", "origin": "http://www.vidyasankar.com"}
+  { "type": "origin", "origin": "https://www.vidyasankar.com"}
 ],
 "categories": [
     "lifestyle", 
