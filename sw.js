@@ -1,3 +1,10 @@
+const HOSTNAME_WHITELIST = [
+    self.location.hostname,
+    'fonts.gstatic.com',
+    'fonts.googleapis.com',
+    'cdn.jsdelivr.net'
+    ]
+
 self.addEventListener('fetch', event => {
 
 const url = new URL(event.request.url);
